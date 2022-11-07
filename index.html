@@ -6,12 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        :root {
+            --main-color: #f00;
+        }
+
+        section {
+            --main-color: #0ff;
+        }
+
+        a {
+            color: var(--main-color);
+        }
+    </style>
 </head>
 
 <body>
     <header><a href=""><img src="logo.svg" alt="Logo"></a>
         <ul>
-            <li><a href="">About</a></li>
+            <li><a class="link" href="">About</a></li>
             <li><a href="">Services</a></li>
             <li><a href="">Barbers</a></li>
             <li><a href="">Contacts</a></li>
@@ -22,7 +35,7 @@
     <main>
         <section>
             <ul>
-                <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
+                <li><a href="" class="link" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
                 <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
             </ul>
             <p>A hair salon for men in Kyiv</p>
